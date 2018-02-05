@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aaron.yuntao1_subbook.AddActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/ADD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="53dp"
+        android:layout_marginStart="39dp"
+        android:onClick="addTask"
+        android:text="@string/ADD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/NAME"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/NAME"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/AMOUNT"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="@string/Amount"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NAME" />
+
+    <EditText
+        android:id="@+id/COMMENTS"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="@string/Comments"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AMOUNT" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="@string/DATE"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/COMMENTS" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="66dp"
+        android:text="@string/DELETE"
+        app:layout_constraintBottom_toBottomOf="@+id/ADD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ADD" />
+
+</android.support.constraint.ConstraintLayout>

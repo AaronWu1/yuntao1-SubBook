@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">yuntao1-SubBook</string>
+    <string name="ADD">ADD</string>
+    <string name="Amount">Amount</string>
+    <string name="Comments">Comments</string>
+    <string name="DATE">DATE</string>
+    <string name="MDELETE">DELETE</string>
+    <string name="DELETE">DELETE</string>
+    <string name="NAME">Name</string>
+    <string name="MEDIT">EDIT</string>
+    <string name="SAVE">SAVE</string>
 </resources>
